@@ -50,9 +50,9 @@ cd "$targ"
 echo
 echo "#### Cleaning $targ"
 rm -f .gitignore
-if [ -e .git ]; then
-	git clean -f -d
-fi
+#if [ -e .git ]; then
+#	git clean -f -d
+#fi
 echo
 echo "#### Building $targ"
 echo
